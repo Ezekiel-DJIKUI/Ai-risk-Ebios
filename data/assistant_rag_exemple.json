@@ -1,0 +1,12 @@
+{
+  "nom": "Assistant client « Aide Contrats » (fictif)",
+  "description": "Assistant conversationnel en ligne d'un assureur fictif. Il répond aux questions des clients sur leurs contrats en s'appuyant sur une base documentaire (conditions générales, FAQ, courriers) et peut créer une demande de rappel dans le CRM. Le modèle est fourni par un éditeur tiers via API.",
+  "caracteristiques": ["llm", "rag", "agent_outils", "donnees_personnelles", "modele_tiers", "expose_public"],
+  "gravite_par_impact": {
+    "confidentialite": 4,
+    "integrite": 3,
+    "disponibilite": 2,
+    "conformite": 3
+  },
+  "mesures_en_place": ["M-02", "M-09", "M-12", "M-18"]
+}
